@@ -5,7 +5,7 @@
 #include<stdio.h>
 void printStr(char *s){
     for (int c = 0; s[c] != '\0'; c++)
-   printf("%c\n", s[c]);
+         printf("%c\n", s[c]);
 }
 int main(){
     char n[]="Hello";
