@@ -1,4 +1,5 @@
-/**/
+/*Задача 8. Напишете функците atoi, itoa, atof и reverse, които писахме
+преди като използвате указател вместо индексиране на масив.*/
 #include <stdio.h>
 #include<ctype.h>
 #include<string.h>
