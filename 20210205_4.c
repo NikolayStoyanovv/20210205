@@ -5,13 +5,14 @@
 #include<stdio.h>
 #include <string.h>
 int our_strcmp(char *s,char *t){
-    int max=5;
-    int min=-4;
+    int result=0;
     while(*s++!=*t++){
         if(*s++>*t++){
-            return max;
+            result=*s-*t;
+            return result;
         }else if(*s++<*t++){
-            return min;
+             result=*s-*t;
+            return result;
         }
 
         }
